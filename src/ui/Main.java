@@ -12,17 +12,17 @@ public class Main {
 		ContactBook cb = new ContactBook(); //relacion de dependencia
 		System.out.println("Bienvenido al Contact Book");
 		
-		System.out.println("[1]. añadir contactos");
+		System.out.println("[1]. aÃ±adir contactos");
 		System.out.println("[2]. buscar contactos" );
 		System.out.println("[3]. remover contactos");
 		System.out.println("[4]. salir");
 		
-		
+		/*
 		cb.add("jaime", "jaime@gmail.com", "123");
 		cb.add("carlos", "ruben@gmail.com", "234");
 		cb.add("juan", "j@gmail.com", "423");
 		cb.add("felipe", "f@gmail.com", "754");
-		cb.add("alex", "alex@gmail.com@", "976");
+		cb.add("alex", "alex@gmail.com@", "976");*/
 		
 		System.out.println(cb.getContacts());
 		String op = sc.nextLine();
