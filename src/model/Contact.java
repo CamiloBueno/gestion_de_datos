@@ -13,14 +13,11 @@ public class Contact {
 		
 	}
 	public String getName() {
-		
 		return name;
-		
 	}
-	
+
 	public void setName(String n) {
 		name = n;
-		
 	}
 	public String getEmail() {
 		return email;
@@ -34,6 +31,12 @@ public class Contact {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	
+	@Override
+	public String toString() {
+		return "Contact [name=" + name + ", email=" + email + ", phone=" + phone + "]"+"\n";
+	}
+	
 	
 }
 	
